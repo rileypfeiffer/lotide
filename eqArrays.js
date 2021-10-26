@@ -16,6 +16,6 @@ const eqArrays = function(arr1, arr2) {
     }
   }
   return true;
-}
+};
 
 assertEqual(eqArrays([1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6]), true);
